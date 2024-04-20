@@ -1,0 +1,164 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+  
+  /* Navbar Style */
+  header {
+    background-color: black; /* Warna latar belakang */
+    color: #fff; /* Warna teks */
+    padding: 20px 0; /* Padding atas dan bawah */
+    height: 100px;
+    padding-top: 40px;
+  }
+  
+  .container {
+    width: 80%; /* Lebar kontainer */
+    margin: auto;/* Pusatkan kontainer */
+    display: flex;
+    justify-content: space-between; /* Menyusun elemen secara horizontal dan memberikan ruang kosong di antara */
+    align-items: center; 
+  }
+  
+  p {
+    font-size: 20px; /* Ukuran font nama */
+    font-weight: bold; /* Ketebalan font */
+  }
+  
+  nav ul {
+    list-style: none; /* Hilangkan marker daftar */
+    display: flex; /* Menggunakan flexbox */
+  }
+  
+  nav ul li {
+    margin-left: 20px; /* Jarak antar item */
+  }
+  
+  nav ul li:first-child {
+    margin-left: 0; /* Hapus margin pertama */
+  }
+  
+  nav ul li a {
+    text-decoration: none; /* Hapus garis bawah pada tautan */
+    color: #fff; /* Warna tautan */
+    font-size: 16px; /* Ukuran font tautan */
+    padding: 10px 15px; /* Ruang di dalam tautan */
+    border-radius: 5px; /* Sudut melengkung pada tautan */
+    transition: background-color 0.3s; /* Animasi perubahan warna latar belakang */
+  }
+  
+  nav ul li a:hover {
+    background-color: #555; /* Warna latar belakang saat dihover */
+  }
+
+  .jumbotron{ 
+    text-align: center;
+    padding-top: 250px;
+    background-color: yellow;
+  } 
+  
+  .jumbotron img{  
+    border-radius: 50%;
+  }
+
+  .jumbotron h2{ 
+    padding-top: 20px;
+  } 
+
+  .jumbotron p{ 
+    padding-bottom: 300px;
+  }
+  .kepala{ 
+    padding-top: 230px ;
+    height: 100vh;
+    padding-left: 300px;
+    padding-right: 300px;
+    background-color: #007bff;
+  }
+
+  .about{ 
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 40px;
+    height: 500px;
+  }
+
+  .about h1{ 
+    padding-top: 100px;
+    padding-bottom:20px ;
+
+  }
+
+  .skill{ 
+   text-align: center;
+   padding-top: 300px;
+   height: 100vh;
+  }
+
+  .skill h1 p{ 
+    border: 1px solid black;
+    text-align: center;
+  }
+  .skill img{ 
+    width: 250px;
+   margin: 50px;
+  }
+
+  .badan{ 
+    height: 100vh;
+    padding-top: 260px;
+    text-align: center;
+  }
+
+  .badan h1{ 
+    padding-bottom: 50px;
+  }
+
+  .masuk{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+
+  .masuk label, input[type="text"], input[type="email"], input[type="submit"] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
